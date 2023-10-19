@@ -6,15 +6,10 @@ This Python script implements a k-Nearest Neighbors (k-NN) classifier, which is 
 
 Before running the script, make sure you have the following libraries installed:
 
-- [NumPy](https://numpy.org/): For numerical operations.
-- [Pandas](https://pandas.pydata.org/): For data manipulation.
-- [argparse](https://docs.python.org/3/library/argparse.html): For command-line arguments.
+- [NumPy]
+- [Pandas]: For data manipulation.
+- [argparse] For command-line arguments.
 
-You can install these libraries using pip:
-
-```bash
-pip install numpy pandas
-```
 
 ## Usage
 
@@ -39,16 +34,4 @@ The script implements the k-NN classification algorithm with the following steps
 6. Assign the majority class label among the k-nearest neighbors as the predicted label.
 7. Count classification errors and print the error count.
 
-## Example
-
-Here is an example command to run the script:
-
-```bash
-python knn_classifier.py --data Example.csv --k 3
-```
-
-This will load the dataset from `Example.csv`, use k = 3 for the k-NN classifier, and classify data points based on their three nearest neighbors.
-
 The script will count and print the classification errors and display the final labels assigned to the data points.
-
-You can adjust the value of `k` and modify the script to suit your specific classification tasks.
